@@ -1,12 +1,12 @@
 {
-  "name": "mern-stack-test",
+  "name": "backend",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js"
   },
-  "author": "",
+  "author": "Dexter",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
