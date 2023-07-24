@@ -50,7 +50,7 @@ Install MERN-STACK-GOALS-APP
 
 ## Demo
 
-- [Here](https://github.com/soham-basak)
+- [Here](https://mern-stack-goals-app.vercel.app)
 
 ## REST API Reference
 
