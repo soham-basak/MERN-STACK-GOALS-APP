@@ -13,7 +13,12 @@ const errorHandler = require("./middleware/errorMiddleware");
 connectDb();
 
 app.use(express.json());
-app.use(cors());
+app.use(
+  cors({
+    origin: "http://mern-stack-goals-app.vercel.app",
+  })
+);
+
 app.use(express.urlencoded({ extended: false }));
 
 app.use("/api/goals/", goalRoutes);
