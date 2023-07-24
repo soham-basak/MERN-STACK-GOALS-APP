@@ -15,7 +15,7 @@ connectDb();
 app.use(express.json());
 app.use(
   cors({
-    origin: "http://mern-stack-goals-app.vercel.app",
+    origin: "https://mern-stack-goals-app.vercel.app",
   })
 );
 
