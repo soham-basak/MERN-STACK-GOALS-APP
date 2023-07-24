@@ -22,6 +22,10 @@ const Dashborad = () => {
     dispatch(getGoals());
   }, [user, dispatch]);
 
+  if (isError) {
+    console.log(message);
+  }
+
   if (isLoading) {
     return <Spinner />;
   }
